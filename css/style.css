@@ -1,0 +1,104 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+
+body {
+    overflow-x: hidden; 
+}
+/* renkler : #00240F = koyu yeşil   #EC0000 = kırmızı   #05A84B = yeşil */
+
+#active-link {
+    color: #EC0000 !important;   
+}
+
+.nav-link {
+    color: #00240F !important;
+}
+
+#btn-signin {
+    width: 103px;
+    height: 40px;
+    margin-left: 10px !important;
+    background-color: #EC0000 !important;
+    font-size: 16px !important;
+}
+
+#btn-order {
+    width: 182px !important;
+    height: 50px !important;
+    background-color: #EC0000;
+    color: #fff;
+    font-size: 24px;
+}
+
+#main-img {
+    transform: rotate(90deg);
+    width:549px !important; 
+    margin-left: 100px;
+}
+
+#main-text-box {
+    margin-top: 30%;
+}
+
+.img-menu {
+    width: 90%;
+}
+
+.btn-addtocart {
+    background-color: #EC0000 !important;
+    color: #fff !important;
+    width: 243px;
+    height: 40px;
+    border-radius: 50px !important;
+    font-size: 16px;
+}
+
+.select-bar {
+    width: 243px !important;
+    justify-content: center !important;
+}
+
+.menu-box {
+    border: 1px solid #00240f3b;
+    padding: 20px 10px 30px 10px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.205);
+}
+
+@media only screen and (max-width: 594px) {
+    #menu-container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #main-img {
+        width:594px !important; 
+    }
+    #main-text-box h1{
+        font-size: 32px !important;
+    }
+    #main-text-box h3{
+        font-size: 16px !important;
+    }
+    #main-text-box #btn-order{
+        font-size: 12px !important;
+        width: 120px !important;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    body{
+        text-align: center !important;
+    }
+    #main-img {
+        width: 100vw !important;
+    }
+    #main-text-box{
+        margin-top: 10%;
+    }
+}
